@@ -38,3 +38,35 @@ nav .nav-links ul li {
 nav .nav-links ul li img {
   transform: scale(0.45);
 }
+
+section {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg img {
+  width: 110vw;
+  height: 110vh;
+  filter: brightness(0.6);
+}
+
+.rock1 {
+  position: absolute !important;
+  left: 10vw !important;
+  top: 20vh !important;
+}
+
+.rock1 img {
+  width: 40%;
+  filter: brightness(0.5)
+}
+
+.earth img {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+}
+
+.text h1 {
+
+}
